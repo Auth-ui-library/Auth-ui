@@ -1,7 +1,13 @@
+import Navbar from '../components/Navbar';
+import HeroSection from '../components/HeroSection';
+// import Footer from '../components/footer';
+
 function Home() {
     return (
-        <div className='flex justify-center items-center h-screen bg-gray-100'>
-            <h1>Bienvenue sur la page d&apos;accueil</h1>
+        <div className='bg-white'>
+            <Navbar />
+            <HeroSection />            
+            {/* <Footer/> */}
         </div>
     );
 }
