@@ -1,16 +1,11 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-
 function App() {
 	return (
-		<Router>
-			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="/about" element={<About />} />
-			</Routes>
-		</Router>
-	);
+		<div className='flex justify-center items-center min-h-screen bg-blue-900'>
+			<h1 className='text-3xl font-bold underline text-white'>
+				Bienvenue sur Auth-UI
+			</h1>
+		</div>
+	)
 }
 
-export default App;
+export default App
