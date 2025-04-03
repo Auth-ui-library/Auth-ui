@@ -1,8 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import InProgress from "./pages/InProgress";
-import Footer from "./components/footer";
+import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
 
 function App() {
 	return (
@@ -11,13 +9,10 @@ function App() {
 				<div className="flex flex-col min-h-screen">
 					{/* Définition des routes */}
 					<Routes>
-						<Route path="/" element={<InProgress />} />
-						<Route path="/" element={<Home />} />
-						<Route path="/about" element={<About />} />
+						<Route path="/" element={<Navbar />} />
+						<Route path="/Components" element={<HeroSection />} />
 					</Routes>
 				</div>
-				{/* Footer */}
-				<Footer/>
 			</div>
 		</Router>
 	);
