@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
+import Dashboard from './pages/Dashboard';
 
 function App() {
 	return (
@@ -9,8 +8,7 @@ function App() {
 				<div className="flex flex-col min-h-screen">
 					{/* Définition des routes */}
 					<Routes>
-						<Route path="/" element={<Navbar />} />
-						<Route path="/Components" element={<HeroSection />} />
+						<Route path="/" element={<Dashboard />} />
 					</Routes>
 				</div>
 			</div>

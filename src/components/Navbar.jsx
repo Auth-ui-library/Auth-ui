@@ -50,13 +50,13 @@ function Navbar() {
                     <Link to="/" className="hover:text-blue-800 font-medium hover:bg-blue-100 flex justify-center items-center py-2 px-4 rounded-full transition-all duration-300">
                         Docs
                     </Link>
-                    <Link to="/Components" className="hover:text-blue-800 font-medium hover:bg-blue-100 flex justify-center items-center py-2 px-4 rounded-full transition-all duration-300">
+                    <Link to="/" className="hover:text-blue-800 font-medium hover:bg-blue-100 flex justify-center items-center py-2 px-4 rounded-full transition-all duration-300">
                         Components
                     </Link>
-                    <Link to="/Blog" className="hover:text-blue-800 font-medium hover:bg-blue-100 flex justify-center items-center py-2 px-4 rounded-full transition-all duration-300">
+                    <Link to="/" className="hover:text-blue-800 font-medium hover:bg-blue-100 flex justify-center items-center py-2 px-4 rounded-full transition-all duration-300">
                         Blog
                     </Link>
-                    <Link to="/Showcase" className="hover:text-blue-800 font-medium hover:bg-blue-100 flex justify-center items-center py-2 px-4 rounded-full transition-all duration-300">
+                    <Link to="/" className="hover:text-blue-800 font-medium hover:bg-blue-100 flex justify-center items-center py-2 px-4 rounded-full transition-all duration-300">
                         Showcase
                     </Link>
                 </div>
